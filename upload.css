@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    border: 0;
+
+}
+.back
+{
+       position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(6px);
+}
+.box
+{    
+      position: relative;
+    left: 26%;
+    background-color: #ffffffe8;
+    width: 50%;
+    height: 94vh;
+    border: 3px black solid;
+}
+.in
+{
+       position: relative;
+    display: flex;
+    top: 10vh;
+    left: 4vh;
+    height: 4vh;
+    width: 43vw;
+    border: 3px black solid;
+    border-radius: 50px;
+}
+.in input
+{
+       position: relative;
+    width: 37vw;
+    height: 4vh;
+    margin-left: 37px;
+    background-color: #dcdcca47;
+    border: 0;
+    border-left: 1.2px solid;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 26px;
+}
+.in input:focus
+{
+    outline: none;
+    justify-content: left;
+}
+
+
+.image-preview-container {
+        position: relative;
+    top: 22vh;
+    width: 50%;
+    height: 36vmin;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.image-preview-container img {
+    width: 23vmax;
+    display: none;
+    margin-bottom: 30px;
+}
+.image-preview-container input {
+    display: none;
+}
+
+.image-preview-container label {
+    display: block;
+    width: 45%;
+    height: 45px;
+    margin-left: 25%;
+    text-align: center;
+    background: #571616;
+    color: #fff;
+    font-size: 15px;
+    text-transform: Uppercase;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=submit]
+{
+        position: absolute;
+    top: 85vh;
+    left: 45%;
+    width: 5vw;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 27px;
+    filter: drop-shadow(3px 7px 6px black);
+    cursor: pointer;
+}
+span h1
+{
+        position: relative;
+    left: 4%;
+    top: -27%;
+    font-size: medium;
+    font-family: system-ui;
+}
+.vaps img
+{
+        position: absolute;
+    width: 2vw;
+    border: 2px black solid;
+    border-radius: 29px
+}
+.vaps
+{
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload</title>
+    <link rel="stylesheet" href="upload.css" />
+    <script src="try.js"></script>
+</head>
+
+<body>
+    <div class="big">
+        <img src="logo/ims college image  final.jpg" alt="" class="back" />
+
+    </div>
+    <div class="vaps"><a href="index1.html"><img src="logo/undo.png" alt=""></a>
+    </div>
+
+    <div class="box">
+
+        <div class="info">
+            <form action="https://drive.google.com/drive/folders/1r7McgTIGW2Cn9JlljYZ4QOTqpyRTW9CU?usp=share_link"
+                class="form">
+                <span class="in">
+                    <h1>thoughts</h1><input type="text" placeholder="" name="thought" id="" />
+                </span>
+                <div class="image-preview-container">
+                    <div class="preview">
+                        <img id="preview-selected-image" />
+                    </div>
+                    <label for="file-upload">Upload Image</label>
+                    <input type="file" id="file-upload" accept="image/*" onchange="previewImage(event);" />
+                </div>
+                <input type="submit" value="post" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
